@@ -2,13 +2,12 @@ import './CSS/parts.css'
 
 export default function Parts(props) {
   return (
-    <div>
-      {props.id}
-      <img src={props.img} alt="chosen-part"></img>
-      {props.name}
+    <div id="part">
       <p>Price: {props.price}</p>
-      <p>Model#: {props.num}</p>
       <a href={props.link}>Link</a>
+      <p>{props.name}</p>
+      <img src={props.img} alt="chosen-part"></img>
+      <p>Model#: {props.num}</p>
     </div>
   )
 }

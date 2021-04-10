@@ -1,4 +1,3 @@
-
 export const partData = [
   { id: 1, name: "Suspension arms (front) count:(2) models:(Rustler, Slash, Stampede)", price: "$8.00", partnum: 3631, img: "https://traxxas.com/sites/default/files/images/products/3631-252w.jpg", link: "https://traxxas.com/products/parts/3631"},
   { id: 2, name: "Suspension arms (front) count:(2) models:(Bandit, Nitro Rustler)", price: "$11.00", partnum: "2531X", img: "https://traxxas.com/sites/default/files/images/products/2531X-252w.jpg", link: "https://traxxas.com/products/parts/2531X"},
