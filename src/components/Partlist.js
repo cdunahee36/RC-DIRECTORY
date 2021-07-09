@@ -1,3 +1,5 @@
+import { SettingsPhone } from '@material-ui/icons';
+import { render } from '@testing-library/react';
 import Parts from './Parts';
 
 export default function Partlist(props) {
@@ -11,6 +13,7 @@ export default function Partlist(props) {
     } else if (n.toLowerCase().includes(t.toLowerCase())) {
       return p
     } 
+    
   }).map(part => {
     return <Parts 
     id={part.id}
@@ -20,6 +23,7 @@ export default function Partlist(props) {
     img={part.img}
     link={part.link}
     />
+
   });
   return (
     <div>{allParts}</div>

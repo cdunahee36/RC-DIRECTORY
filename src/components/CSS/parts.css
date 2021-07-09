@@ -1,6 +1,13 @@
 #part {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  font-size: 2vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
+
+#part img {
+  width: 10vw;
+  height: auto;
+}
+
 

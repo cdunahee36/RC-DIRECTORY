@@ -1,4 +1,6 @@
 export default function Home() {
+
+  
   
   function questions() {
     var confirmBuggy = window.confirm("Do you prefer a buggy chassis?");
@@ -104,6 +106,7 @@ export default function Home() {
   }
 
   return(
+    
     <div>
         <button type="submit" value="begin" onClick={questions}>Get Car Reccomendation</button>
     </div>
